@@ -107,6 +107,7 @@ span.avatar_txt:hover {
     display: flex;
     justify-content: flex-start;
     gap:0px;
+    border-bottom: solid 1px #8D8D8D;
 }
 .container .header a {
     font-size: 0.7em;
@@ -198,7 +199,7 @@ aside .tags {
     gap: 10px;
     padding-top: 20px;
 }
-aside .tags a {
+aside .tags a, .footer a.tag {
     border-radius: 50px;
     border-style:solid;
     background-color:#F2F2F2;
@@ -269,7 +270,7 @@ aside .saved div.content {
 
 .container .header {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 .container .content {
 }
